@@ -1,3 +1,3 @@
 # HackNewsReader
 
-Store news from https://news.ycombinator.com/ offline on Android
+Simple news app for Android
