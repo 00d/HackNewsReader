@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Hacker News Reader",
+    "slug": "hacknews-rn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff6600"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hacknews.reader"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ff6600"
+      },
+      "package": "com.hacknews.reader",
+      "versionCode": 1,
+      "permissions": ["INTERNET"],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
